@@ -1,0 +1,16 @@
+/* Joonas Nuutinen - Portfolio
+ * assets/css/style.css
+ *
+ * The main style file.
+ */
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project__image {
+  width: 100%;
+  height: auto;
+}
