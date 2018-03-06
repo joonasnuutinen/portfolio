@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8">
     <title>Joonas Nuutinen - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   
-  <body>
-    <div class="container">    
-      <!-- Header -->
-      
-      <header class="header">
+  <body class="page">   
+    
+    <!-- Header -->
+    
+    <header class="header">
+      <div class="logo-container">
         <img class="site-logo" width="300" src="assets/images/jn-logo.svg" alt="The Joonas Nuutinen logo">
+      </div>
+    </header>
+    
+    <div class="content">
+    
+      <!-- Title & navigation -->
+      
+      <section class="section">
         <h1 class="page-title">Portfolio</h1>
-        
+          
         <nav class="page-nav">
           <ul class="page-nav__list">
             <li class="page-nav__item">
@@ -33,12 +44,12 @@
             </li>
           </ul>
         </nav>
-      </header>
+      </section>
       
       <!-- Introduction -->
       
       <section class="section" id="introduction">
-        <h2 class="section-title">Introduction</h2>
+        <h2 class="section__title">Introduction</h2>
         
         <p>Hi, I'm Joonas. I make websites and music. This is my portfolio.</p>
       </section>
@@ -148,7 +159,9 @@
       <!-- Music -->
 
       <section class="section" id="music">
-        <h2 class="section-title">Music</h2>
+        <h2 class="section__title">Music</h2>
+        
+        <p>In this section, you'll find music projects I've done.</p>
 
         <!-- Yötaivaan tähti -->
         
@@ -358,28 +371,31 @@
       <!-- Hire me -->
 
       <section class="section" id="hire-me">
-        <h2 class="section-title">Hire me</h2>
+        <h2 class="section__title">Hire me</h2>
         
-        <p>I'm available for hire.</p>
+        <p>I'm available for hire. If you need a website, a web app or music for your project, please contact me at <a href="mailto:joonas@joonasnuutinen.com">joonas@joonasnuutinen.com</a>.</p>
       </section>
-      
-      <!-- Footer -->
-      
-      <footer class="footer">
-        <ul class="social-media">
-          <li class="social-media__item">
-            <a class="social-media__link" href="https://www.facebook.com/JoonasNuutinen/">
-              <img class="social-media__logo" width="30" height="30" src="assets/images/fb-logo.svg" alt="Facebook logo">
-            </a>
-          </li>
-          
-          <li class="social-media__item">
-            <a class="social-media__link" href="https://github.com/joonasnuutinen">
-              <img class="social-media__logo" width="30" height="30" src="assets/images/github-logo.svg" alt="Github logo">
-            </a>
-          </li>
-        </ul>
-      </footer>
-    </div><!-- .container -->
+    
+    </div>
+    
+    <!-- Footer -->
+    
+    <footer class="footer">
+      <ul class="social-media">
+        <li class="social-media__item">
+          <a class="social-media__link" href="https://www.facebook.com/JoonasNuutinen/">
+            <img class="social-media__logo" width="30" height="30" src="assets/images/fb-logo.svg" alt="Facebook logo">
+          </a>
+        </li>
+        
+        <li class="social-media__item">
+          <a class="social-media__link" href="https://github.com/joonasnuutinen">
+            <img class="social-media__logo" width="30" height="30" src="assets/images/github-logo.svg" alt="Github logo">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  
   </body>
+
 </html>
