@@ -39,21 +39,6 @@ p {
   margin: 0 0 1rem 0;
 }
 
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-
-.group:after {
-  clear: both;
-}
-
-.group {
-  clear: both;
-  *zoom: 1;
-}
-
 /*
   ============================================================================
   # Header
@@ -136,10 +121,22 @@ p {
 */
 
 .project {
+  clear: both;
   padding: .5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 1px 4px #aaa;
   background: white;
+  *zoom: 1;
+}
+
+.project:before,
+.project:after {
+  content: "";
+  display: table;
+}
+
+.project:after {
+  clear: both;
 }
 
 .project__title {
@@ -167,17 +164,24 @@ p {
 */
 
 .footer {
+  position: relative;
   padding: .5rem 0;
   background: white;
   box-shadow: 0 1px 4px #aaa;
 }
 
+.footer__content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 .5rem;
+  text-align: center;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
-  max-width: 900px;
-  margin: 1rem auto;
-  padding: 0 .5rem;
+  margin: 1rem 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -213,7 +217,7 @@ p {
   .project__image {
     width: 40%;
     float: right;
-    margin-left: 1rem;
+    margin-left: .5rem;
     margin-bottom: .5rem;
   }
 }
