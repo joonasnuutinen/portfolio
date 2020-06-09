@@ -1,3 +1,5 @@
 # vim temp files
 *~
 firebase-debug.log
+.firebase/
+.firebaserc
